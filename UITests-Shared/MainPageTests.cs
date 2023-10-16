@@ -1,15 +1,10 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium.Appium;
+using UITests.Android.Shared;
 
 namespace UITests;
 
 public class MainPageTests : BaseTest
 {
-    public MainPageTests(TargetPlatform platform)
-        : base(platform)
-    {
-    }
-
     [Test]
     public void AppLaunches()
     {
